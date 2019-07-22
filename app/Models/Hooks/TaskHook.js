@@ -2,6 +2,7 @@
 
 const Kue = use("Kue");
 const Job = use("App/Jobs/NewTaskMail");
+
 const TaskHook = (exports = module.exports = {});
 
 TaskHook.sendNewTaskMail = async taskInstance => {
